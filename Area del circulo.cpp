@@ -1,23 +1,14 @@
-/******************************************************************************
-
-                              Online C++ Compiler.
-               Code, Compile, Run and Debug C++ program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
-
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int radio,pi,resul;
-cout<<"bienvenido a area del circulo\n";
+int radio,pi,r;
 cout<<"porfavor intruduzca el radio\n";
-cin>>radio;
+cin>>rd;
 pi=3.1416;
-resul=radio*radio*pi;
+resul=rd*rd*pi;
 cout<<"el resultado fue\n";
-cout<<resul;
+cout<<r;
 
 }
