@@ -2,13 +2,13 @@
 
 using namespace std;
 int main(){
-    int base,altura,resul;
+    int b,a,r;
     cout<<"por favor ingresar la altura\n";
-    cin>> altura;
+    cin>> a;
     cout<<"por favor ingrese la base";
-    cin>> base;
-    resul= base*altura/2;
+    cin>> b;
+    r= b*a/2;
     cout<<"el resultado fue\n";
-    cout<<resul;
+    cout<<r;
 }
 
